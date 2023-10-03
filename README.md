@@ -13,7 +13,7 @@ Repository demonstrating how to apply CRUD operations on psql database tables wi
 ## References
 
 - [Diesel - Getting Started](https://diesel.rs/guides/getting-started)
-- [Diesel PostgreSql sample](https://github.com/diesel-rs/diesel/tree/2.1.x/examples/postgres/getting_started_step_3/src)
+- [Diesel PostgreSql full sample used in this setup](https://github.com/diesel-rs/diesel/tree/2.1.x/examples/postgres/getting_started_step_3/src)
 
 ## How to use
 
