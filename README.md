@@ -17,9 +17,9 @@ Repository demonstrating how to apply CRUD operations on psql database tables wi
 
 ## How to use
 
-**Precondition**: On Ubuntu 20.04 
+**Precondition**: On Ubuntu 20.04 `sudo apt-get install -y libpq-dev`
 
-Afterwards following steps were executed considering migrations and binaries containing functions utilizing diesel ORM in order to apply CRUD operations on a PosgreSql migrated database table. Following steps have been executed as a **precondition**:
+Afterwards following steps were executed considering migrations and binaries containing functions utilizing diesel ORM in order to apply CRUD operations on a PosgreSql migrated database table. Following steps have been executed as a **precondition and shall not be run afterwards** unless intended (e.g. updated migrations to be tested):
 
 ```bash
 sudo apt-get install libpq-dev -y
