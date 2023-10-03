@@ -8,7 +8,7 @@
 
 ## Summary
 
-Repository demonstrating how to apply CRUD operations on psql database tables with Rust and required third-party crates.
+Repository demonstrating how to apply CRUD operations on psql database tables with Rust and required third-party crates. Duplicates: [Diesel PostgreSql full sample used in this setup](https://github.com/diesel-rs/diesel/tree/2.1.x/examples/postgres/getting_started_step_3/src)
 
 ## References
 
