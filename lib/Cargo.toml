@@ -1,5 +1,5 @@
 [package]
-name = "lib"
+name = "diesel_demo"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,5 +7,24 @@ edition = "2021"
 
 [dependencies]
 diesel = { version = "2.1.2", features = ["postgres"] }
-dotenv = "0.15.0"
+dotenvy = "0.15"
 tokio = { version = "1.32.0", features = ["full"] }
+
+[[bin]]
+name = "show_posts"
+doc = false
+
+[[bin]]
+name = "write_post"
+doc = false
+
+[[bin]]
+name = "delete_post"
+doc = false
+
+[[bin]]
+name = "publish_post"
+doc = false
+
+[lib]
+doc = false
