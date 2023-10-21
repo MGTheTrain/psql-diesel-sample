@@ -1,4 +1,4 @@
-# psql-diesel-sample
+# rust-psql-diesel-sample
 
 ## Table of Contents
 
@@ -8,7 +8,7 @@
 
 ## Summary
 
-Repository demonstrating how to apply CRUD operations on psql database tables with Rust and required third-party crates. Duplicates: [Diesel PostgreSql full sample used in this setup](https://github.com/diesel-rs/diesel/tree/2.1.x/examples/postgres/getting_started_step_3/src)
+Repository demonstrating how to apply CRUD operations on psql database tables with Rust and required third-party crates. Duplicates the Rust part: [Diesel PostgreSql full sample used in this setup](https://github.com/diesel-rs/diesel/tree/2.1.x/examples/postgres/getting_started_step_3/src)
 
 ## References
 
@@ -19,7 +19,7 @@ Repository demonstrating how to apply CRUD operations on psql database tables wi
 
 **Precondition**: On Ubuntu 20.04 `sudo apt-get install -y libpq-dev`
 
-Afterwards following steps were executed considering migrations and binaries containing functions utilizing diesel ORM in order to apply CRUD operations on a PosgreSql migrated database table. Following steps have been executed as a **precondition and shall not be run afterwards** unless intended (e.g. updated migrations to be tested):
+Afterwards following steps were executed considering migrations and binaries containing functions utilizing diesel ORM in order to apply CRUD operations on a PosgreSql migrated database table. Following steps have been executed as a **precondition and shall not be run afterwards** unless intended (e.g. new migrations which shall be tested):
 
 ```bash
 sudo apt-get install libpq-dev -y
@@ -54,5 +54,5 @@ In order to clear resources:
 ```bash
 sudo docker rm -f $(sudo docker ps -qa)
 sudo docker system prune --volumes --force
-sudo rm -rf lib/target
+sudo rm -rf lib/target Cargo.lock
 ```
